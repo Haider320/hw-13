@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+    outline: o;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* top bar section start */
+#header .top_bar{
+    background-color: #0f2f44;
+}
+#header .top_bar .row{
+    justify-content: space-between;
+
+
+}
+#header .top_bar .top_ber_left p{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    
+
+}
+#header .top_bar .top_ber_right{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+
+
+
+
+/* top bar section css end */
+nav{
+    background-color: #ffffff;
+}
+.row{
+    align-items: center;
+}
+nav .container .row{
+    justify-content: space-between;
+;
+}
+nav .container .row .logo{
+    
+
+}
+nav .container .row .menu a{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 42px 30px;
+
+}
+#banner{
+    background-image: url(../img/background.jpg);
+    height: 598px;
+    background-size: cover;
+    text-align: left;
+}
+#banner .container{
+    margin: auto;
+}
+#banner .container h5{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 400;
+    color: #0f2f44;
+    
+}
+#banner .container h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 600;
+    color: #0f2f44;
+    margin-top: 10px;
+}
+#banner .container h4{
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #8484bf;
+    letter-spacing: 30px;
+}
+#banner .container p{
+    width: 410px;
+    font-size: 14px;
+    color: #74797e;
+    font-weight: 400;
+
+}
+#banner .container a{
+    text-transform: uppercase;
+    display: inline-block;
+    color: white;
+    background-color: #74797e;
+    padding: 5px 10px;
+    font-size: 20px;
+}
